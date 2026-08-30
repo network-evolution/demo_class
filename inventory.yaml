@@ -1,0 +1,21 @@
+devices:
+  sw01:
+    host: ${DEVICE_HOST}
+    port: 22001
+    device_type: arista_eos
+    username: ${DEVICE_USERNAME}
+    password: ${DEVICE_PASSWORD}
+
+  sw02:
+    host: ${DEVICE_HOST}
+    port: 22002
+    device_type: arista_eos
+    username: ${DEVICE_USERNAME}
+    password: ${DEVICE_PASSWORD}
+
+  sw03:
+    host: ${DEVICE_HOST}
+    port: 22003
+    device_type: arista_eos
+    username: ${DEVICE_USERNAME}
+    password: ${DEVICE_PASSWORD}
