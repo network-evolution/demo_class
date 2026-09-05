@@ -11,7 +11,7 @@ with open(INVENTORY_FILE, "r") as f:
    yaml_raw = f.read()
     
 inventory = yaml.safe_load(yaml_raw)
-# pprint(inventory)
+pprint(inventory)
 
 for device_name, details in inventory['devices'].items():
     # print(device_name)
