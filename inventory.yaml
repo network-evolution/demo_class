@@ -2,6 +2,7 @@ devices:
   sw01:
     host: ${DEVICE_HOST}
     port: 22001
+    eapi_port: 44301
     device_type: arista_eos
     username: ${DEVICE_USERNAME}
     password: ${DEVICE_PASSWORD}
