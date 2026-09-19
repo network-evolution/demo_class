@@ -6,6 +6,8 @@ from netmiko import ConnectHandler
 
 load_dotenv()
 
+
+
 with open("inventory.yaml", "r") as f:
     inventory = yaml.safe_load(f.read())
 
