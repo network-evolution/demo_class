@@ -1,0 +1,15 @@
+devices:
+  sw01:
+    host: 172.20.20.2
+    port: 22
+    eapi_port: 443
+    device_type: arista_eos
+    username: admin
+    password: admin
+  sw02:
+    host: 172.20.20.3
+    port: 22
+    eapi_port: 44301
+    device_type: arista_eos
+    username: admin
+    password: admin
